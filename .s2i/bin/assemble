@@ -4,4 +4,4 @@ echo "Executing assemble script"
 /usr/libexec/s2i/assemble
 
 echo "Start special sauce"
-python cf-ex-phppgadmin/.extensions/phppgadmin/extension.py
+python /opt/app-root/src/.extensions/phppgadmin/extension.py
